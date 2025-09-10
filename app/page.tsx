@@ -145,12 +145,12 @@ export default function YusrLandingPage() {
       >
         <div className="container mx-auto max-w-6xl relative z-10">
           <motion.div className="text-center mb-16" variants={fadeInUp}>
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
+            {/* <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
               المشكلة والحل
             </h2>
             <p className="text-base sm:text-xl md:text-2xl text-muted-foreground leading-relaxed">
               نحن نفهم التحديات التي تواجهها في العالم الرقمي
-            </p>
+            </p> */}
           </motion.div>
 
           <div className="grid md:grid-cols-2 gap-8">

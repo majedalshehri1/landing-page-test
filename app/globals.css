@@ -1,12 +1,9 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
-/* 🌙 Dark Mode Variant */
 @custom-variant dark (&:is(.dark *));
 
-/* 🎨 Light Mode (Default Theme) */
 :root {
-  /* Core Colors */
   --background: oklch(1 0 0);
   --foreground: oklch(0.22 0 0);
 
@@ -43,7 +40,6 @@
   --font-ibm-plex-arabic: "IBM Plex Sans Arabic", sans-serif;
 }
 
-/* 🌚 Dark Mode */
 .dark {
   --background: oklch(0.145 0 0);
   --foreground: oklch(0.985 0 0);
@@ -74,7 +70,6 @@
   --ring: oklch(0.439 0 0);
 }
 
-/* 🖌 Theme Tokens */
 @theme inline {
   --font-sans: var(--font-cairo), var(--font-ibm-plex-arabic), system-ui,
     sans-serif;
@@ -111,7 +106,6 @@
   --radius-xl: calc(var(--radius) + 4px);
 }
 
-/* 🧩 Base Styles */
 @layer base {
   * {
     @apply border-border outline-ring/50;
@@ -125,12 +119,10 @@
     width: 100%;
   }
 
-  /* RTL Support */
   [dir="rtl"] {
     direction: rtl;
   }
 
-  /* Scrollbar Styling */
   ::-webkit-scrollbar {
     width: 8px;
   }

@@ -20,8 +20,8 @@ const ibmPlexArabic = IBM_Plex_Sans_Arabic({
 });
 
 export const metadata: Metadata = {
-  title: "يسر | Yusr - تسهيل الحياة الرقمية",
-  description: "مشروع يسر لتسهيل الحياة الرقمية وتقديم حلول مبتكرة",
+  title: "يسر",
+  description: "مشروع يسر لتسهيل الوصول للأماكن العامة بإستخدام خريطة تفاعلية",
 };
 
 export default function RootLayout({

@@ -19,7 +19,7 @@ export const teamMembers: TeamMember[] = [
     name: "عبد العزيز بن شبرين",
     role: "Backend Developer",
     image: "/team/abdulaziz-bin-shibrayn.png",
-    linkedin: "https://www.linkedin.com/in/abdulaziz-bin-shibrayn",
+    linkedin: "https://www.linkedin.com/in/abdulaziz-bin-shibrayn-0989a131b",
     github: "https://github.com/abdulazizshibrayn",
   },
   {

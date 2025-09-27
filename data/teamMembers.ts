@@ -11,9 +11,9 @@ export const teamMembers: TeamMember[] = [
   {
     name: "عبدالعزيز بن سيف",
     role: "Software Developer",
-    image: "/team/placeholder.png",
-    linkedin: "#",
-    github: "#",
+    image: "/team/abdulaziz-bin-saif.png",
+    linkedin: "https://www.linkedin.com/in/abdulaziz-bin-saif-8620482a6/",
+    github: "https://github.com/abdulaziz-alsaif",
   },
   {
     name: "عبد العزيز بن شبرين",
@@ -25,15 +25,15 @@ export const teamMembers: TeamMember[] = [
   {
     name: "عبدالله النشوان",
     role: "Software Developer",
-    image: "/team/placeholder.png",
-    linkedin: "#",
+    image: "/team/abdullah-nash.png",
+    linkedin: "https://www.linkedin.com/in/abdullah-al-nashwan-a53b96347",
     github: "https://github.com/AbdullahNash1",
   },
   {
     name: "عبيد المطيري",
     role: "Software Developer",
-    image: "/team/placeholder.png",
-    linkedin: "#",
+    image: "/team/oaalmutair.png",
+    linkedin: "https://www.linkedin.com/in/obaid-almutairi-80978b320",
     github: "https://github.com/oaalmutair42",
   },
 ];
